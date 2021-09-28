@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro Digital House</title>
+</head>
+
+<body>
+    <div class="container-table">
+        <div class="content">
+            <div id="formulario" class="formulario">
+                <div>
+                    <form action="" method="post">
+                        <div id="title">
+                            <h1 id="title-form">Cadastro Digital House</h1>
+                            <a class="close"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="container-form">
+                            <div class="input_div grow">
+                                <input class="input_form" type="text" name="name" placeholder="Digite seu Nome" value=""
+                                    required>
+                            </div>
+                            <div class="input_div grow">
+                                <input class="input_form" type="text" name="email" placeholder="Digite seu Email"
+                                    value="" required>
+                            </div>
+                            <div class="input_div grow">
+                                <input class="input_form" type="number" name="telefone"
+                                    placeholder="Digite seu Telefone" value="" required>
+                            </div>
+                            <div class="input_div grow">
+                                <input class="input_form" type="date" name="data"
+                                    placeholder="Digite sua Data de nascimento" required>
+                            </div>
+                            <div class="input_div grow">
+                                <input class="input_form" type="text" name="city" placeholder="Digite sua Cidade"
+                                    value="" required>
+                            </div>
+                            <div class="input_div grow">
+                                <input class="input_form" type="text" name="state" placeholder="Digite seu Estado"
+                                    value="" required>
+                            </div>
+                            <div class="input_div grow">
+                                <select class='input_form' name="" id="">
+                                    <option value="">Ponto de interesse na cidade</option>
+                                    <option value="Praias e Cachoeiras">Praias e Cachoeiras</option>
+                                    <option value="Museus e Teatros">Museus e Teatros</option>
+                                    <option value="Bares e Restaurantes">Bares e Restaurantes</option>
+                                    <option value="Lazer e Esportes">Lazer e Esportes</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input_div">
+                            Maior de idade:
+                            <input type="radio" name="idade" value="Masculino" required checked> Sim
+                            <input type="radio" name="idade" value="Feminino" required> Não
+                        </div>
+                        <div class="input_div">
+                            Interesses na cidade:
+                            <label for="interests">Turista
+                                <input class="" type="checkbox" name="interests" id='interests' value="Turista">
+                            </label>
+                            <label for="interests">Estudante
+                                <input class="" type="checkbox" name="interests" id='interests' value="Estudante">
+                            </label>
+                            <label for="interests">Residente
+                                <input class="" type="checkbox" name="interests" id='interests' value="Residente">
+                            </label>
+                        </div>
+                        <div class="input_div">
+                            Sexo:
+                            <input type="radio" name="sexo" value="Masculino" required checked> Masculino
+                            <input type="radio" name="sexo" value="Feminino" required> Feminino
+                        </div>
+                        <div class="input_div">
+                            <button type="submit" class="send-buttons submit" name="action" value="create"> enviar
+                            </button>
+                            <button type="reset" class="send-buttons reset" name="action" value="create"> limpar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header"></div>
+</body>
+
+</html>
